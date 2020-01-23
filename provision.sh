@@ -11,3 +11,7 @@ sudo su -c 'echo -e "vagrant soft nofile 4096\nvagrant hard nofile 65536\n" > /e
 git config --global user.email "leebenjp@gmail.com"
 git config --global user.name "leebenjp"
 git config --global push.default simple
+
+cp /vagrant/.bashrc ~/
+cp /vagrant/.bashrc.colors ~/
+cp /vagrant/.gitconfig ~/
