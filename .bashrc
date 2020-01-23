@@ -137,7 +137,7 @@ alias gg="git grep"
 alias push="git push origin HEAD"
 
 alias tmuxux="tmux new-session -A -s main"
-alias code="cd /vagrant/code"
+alias code="cd /vagrant"
 
 
 # DO NOW
